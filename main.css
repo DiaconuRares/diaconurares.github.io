@@ -1,0 +1,87 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.pexels.com/photos/242124/pexels-photo-242124.jpeg?cs=srgb&dl=architectural-design-architecture-buildings-242124.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome {
+    padding: 0;
+    margin: 0;
+    width: calc(100% - 40px);
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.welcome>.cont {
+    margin: 20px;
+    padding: 0;
+    background-color: #3366CC;
+    border-radius: 15px;
+    flex: 1;
+    flex-direction: row;
+    height: 100%;
+    align-items: stretch;
+    align-content: space-between;
+    opacity: 0.7;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    flex-direction: row;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.welcome>.cont:hover {
+    cursor: default;
+    transition: 0s;
+}
+
+.separate {
+    margin: 0;
+    padding: 0;
+    height: 20%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.contMain {
+    margin: 0;
+    padding: 20px;
+    width: calc(100% - 40px);
+    height: calc(65% - 80px);
+    display: flex;
+    flex-direction: column;
+}
+
+.contMain>.c {
+    flex:1;
+    justify-content: space-around;
+    background-color: lightslategray;
+    opacity: 0.7;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    font-size: 40px;
+    font-family: monospace;
+    transition: 1s;
+}
+
+.contMain>.c:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
