@@ -13,7 +13,7 @@ $(document).ready(function() {
     });
     
     $(".contMain>.container3").click(function() {
-        window.location.href = "https://diaconurares.github.io/progress/index.html";
+        window.location.href = "https://diaconurares.github.io/Lorem/index.html";
     });
     
 });
